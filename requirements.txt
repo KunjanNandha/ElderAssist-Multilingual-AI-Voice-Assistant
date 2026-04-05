@@ -1,0 +1,50 @@
+# ─────────────────────────────────────────────────────────
+#  ElderAssist - Python Dependencies
+#  Install with: pip install -r requirements.txt
+#
+#  Windows users: run setup_windows.bat instead, or run:
+#    python -m pip install --upgrade pip setuptools wheel
+#    pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────
+
+# Build tools (must come first on Windows)
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Web framework
+flask==3.0.3
+flask-cors==4.0.1
+
+# Speech recognition (OpenAI Whisper)
+# Requires ffmpeg on your system PATH
+openai-whisper==20231117
+
+# Language detection
+langdetect==1.0.9
+
+# Text-to-speech
+gTTS==2.5.1
+
+# Machine learning (intent classification)
+scikit-learn==1.5.1
+numpy==1.26.4
+
+# Audio processing
+soundfile==0.12.1
+
+# Scheduling (medicine reminders)
+apscheduler==3.10.4
+
+# Utilities
+requests==2.32.3
+python-dotenv==1.0.1
+
+# ─────────────────────────────────────────────────────────
+#  System Requirements (install separately):
+#    ffmpeg  — required by Whisper for audio conversion
+#      Windows: winget install ffmpeg
+#               OR download from https://ffmpeg.org/download.html
+#               and add to PATH
+#      macOS:  brew install ffmpeg
+#      Ubuntu: sudo apt install ffmpeg
+# ─────────────────────────────────────────────────────────
