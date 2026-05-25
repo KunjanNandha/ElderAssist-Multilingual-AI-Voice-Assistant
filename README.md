@@ -1,8 +1,8 @@
 # 🎙️ ElderAssist — Multilingual AI Voice Assistant
 
 > **MTech DSA Mini Project (DADS CSD40070)**  
-> Priyank Bhanushali (1262250424) · Kunjan Nandha (1262252041)  
-> Faculty: Dr. Jayshree Aher · Date: 17/02/2026
+> · Kunjan Nandha (1262252041)  
+
 
 ---
 
@@ -435,17 +435,5 @@ GET /api/languages
 
 ---
 
-## 👥 Team
-
-| Name | Roll No. | Role |
-|------|----------|------|
-| Priyank Bhanushali | 1262250424 | Frontend, Integration |
-| Kunjan Nandha      | 1262252041 | Backend, ML Models |
-
-**Faculty Guide**: Dr. Jayshree Aher  
-**Class**: MTech DSA  
-**Subject**: DADS [CSD40070]
-
----
 
 *ElderAssist — Bridging the Digital Divide for Senior Citizens*
